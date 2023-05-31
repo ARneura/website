@@ -19,21 +19,21 @@ export default function Header(props: { home: string, services: string, technolo
           <div className="hidden justify-center items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu">
             <ul className="flex flex-col mt-4 font-semibold lg:flex-row lg:space-x-8 lg:mt-0 justify-center items-center float-right">
               <li>
-                <Link href={props.home} className="hover:underline block py-2 pr-4 pl-3 lg:hover:scale-105 text-gray-700 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-500 lg:p-0">
+                <Link href={props.home} className="hover:underline block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-500 lg:p-0">
                   Home
                 </Link>
 
               </li>
               <div className="w-px h-10 bg-white" />
               <li>
-                <Link href="#services" className="hover:underline block py-2 pr-4 pl-3 lg:hover:scale-105 text-gray-700 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-500 lg:p-0">
+                <Link href="#services" className="hover:underline block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-500 lg:p-0">
                   Services
                 </Link>
               </li>
               <div className="w-px h-10 bg-white" />
 
               <li>
-                <Link href="#about" className="hover:underline block py-2 pr-4 pl-3 lg:hover:scale-105 text-gray-700 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-500 lg:p-0">
+                <Link href="#about" className="hover:underline block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-500 lg:p-0">
                   About
                 </Link>
               </li>
