@@ -20,7 +20,7 @@ module.exports = {
         linkPrim: "#ffffff",
         linkSec: "#ffffff",
         heroBg: "#f7faff",
-        arneuraHeroText: "#4e4039",
+        arneuraHeroText: "#ffffff",
         arneuraButton: ""
       }
     },

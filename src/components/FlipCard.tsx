@@ -35,11 +35,11 @@ export default function FadeInOnScroll() {
         };
     }, [elementRef]);
     return (
-        <div className="fade-up w-full bg-white" >
-            <h1 className="font-bold mb-3 text-3xl text-center pt-5 text-arneuraHeroText">We offer you...</h1>
-            <div className="container mx-auto py-5">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-8">
-                    <div className="p-2 rounded-2xl shadow-gray-200 shadow-lg bg-white hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
+        <div className="fade-up w-full bg-[#1c223b]" >
+            <h1 className="font-bold mb-3 text-3xl text-center text-white">We offer you...</h1>
+            <div className="container mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-8 text-[#c7c7c7]">
+                    <div className="p-2 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
                         <div className="p-5 w-full max-w-sm flex flex-col items-center justify-start h-auto">
                             <div className="mb-4">
                                 <Image src={Smile} alt="Customer Focused Image" width={84} height={64} />
@@ -52,7 +52,7 @@ export default function FadeInOnScroll() {
                             </div>
                         </div>
                     </div>
-                    <div className="p-2 rounded-2xl shadow-gray-200 shadow-lg bg-white hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
+                    <div className="p-2 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
                         <div className="p-5 w-full max-w-sm flex flex-col items-center justify-start h-auto">
                             <div className="mb-4">
                                 <Image src={Agile} alt="Agile Image" width={84} height={64} />
@@ -65,7 +65,7 @@ export default function FadeInOnScroll() {
                             </div>
                         </div>
                     </div>
-                    <div className="p-2 rounded-2xl shadow-gray-200 shadow-lg bg-white hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
+                    <div className="p-2 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
                         <div className="p-5 w-full max-w-sm flex flex-col items-center justify-start h-auto">
                             <div className="mb-4">
                                 <Image src={Smart} alt="Skillset Image" width={84} height={64} />
@@ -78,7 +78,7 @@ export default function FadeInOnScroll() {
                             </div>
                         </div>
                     </div>
-                    <div className="p-2 rounded-2xl shadow-gray-200 shadow-lg bg-white hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
+                    <div className="p-2 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
                         <div className="p-5 w-full max-w-sm flex flex-col items-center justify-start h-auto">
                             <div className="mb-4">
                                 <Image src={Communication} alt="Clear Communication Image" width={84} height={64} />

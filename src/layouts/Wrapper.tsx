@@ -24,8 +24,6 @@ const Wrapper = ({ children, title }: WrapperProps) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header home={"#home"} services={"#services"} technologies={"#technologies"} />
-      <div className='divider' />
       <div>{children}</div>
     </div>
   );
