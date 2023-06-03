@@ -36,7 +36,7 @@ export default function FadeInOnScroll() {
     }, [elementRef]);
     return (
         <div className="fade-up w-full bg-[#1c223b]" >
-            <h1 className="font-bold mb-3 text-3xl text-center text-white">We offer you...</h1>
+            <h1 className="font-bold mb-3 text-3xl text-center text-white pb-5">We offer you...</h1>
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-8 text-[#c7c7c7]">
                     <div className="p-2 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 flex justify-center md:justify-start items-center hover:scale-105">
