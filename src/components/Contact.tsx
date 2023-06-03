@@ -131,11 +131,11 @@ export default function Contact(props: {
             <button type="button" onClick={() => {
               makePostRequest(url, payload)
             }}
-              className="border border-white mt-6 font-semibold text-white rounded-full px-5 py-2.5 text-center inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 mr-2 mb-2">
+              className="border border-white mt-6 font-semibold text-white  hover:bg-white hover:text-[#1c223b] rounded-full px-5 py-2.5 text-center inline-flex items-center justify-center  mr-2 mb-2">
               Submit
             </button>
 
-            <p className="text-gray-700 font-semibold">{progress}</p>
+            <p className="text-gray-100 font-semibold">{progress}</p>
 
             <div className="p-4 bg-white rounded mt-5 flex flex-col border-black border">
               <h2 className=" text-lg font-semibold text-gray-600">

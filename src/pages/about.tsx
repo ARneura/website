@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '@/components/Hero';
 import Box from '@/components/Box';
-import SoftwareLogosImg from '../../public/technology.svg';
+import SoftwareLogosImg from '../../public/—Pngtree—airforce jet fighter icon_7767526.svg';
 import FlipCard from '@/components/FlipCard';
 import Contact from '@/components/Contact';
 import Header from '@/components/Header';
