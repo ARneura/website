@@ -49,7 +49,7 @@ export default function FadeInOnScroll() {
             <div className="opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 fade-in-card" ref={(ref) => (elementRefs.current[0] = ref)}>
             <div className="p-5 flex items-start">
               <div className="mr-4">
-                <Image src={Smile} alt="" width={80}></Image>
+                <Image src={Smile} alt="Customer Satisfaction" width={80}></Image>
               </div>
               <div className="">
                 <h1 className="font-semibold text-left text-2xl pt-6">
@@ -68,7 +68,7 @@ export default function FadeInOnScroll() {
           <div className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 fade-in-card" ref={(ref) => (elementRefs.current[1] = ref)}>
             <div className="p-5 flex items-start">
               <div className="mr-4">
-                <Image src={Agile} alt="" width={80}></Image>
+                <Image src={Agile} alt="Agile Approach" width={80}></Image>
               </div>
               <div className="">
                 <h1 className="font-semibold text-left text-2xl pt-6">Agile</h1>
@@ -87,7 +87,7 @@ export default function FadeInOnScroll() {
           <div className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 fade-in-card" ref={(ref) => (elementRefs.current[2] = ref)}>
             <div className="p-5 flex items-start">
               <div className="mr-4">
-                <Image src={Smart} alt="" width={80}></Image>
+                <Image src={Smart} alt="Fast Development" width={80}></Image>
               </div>
               <div className="">
                 <h1 className="font-semibold text-left text-2xl pt-6">
@@ -108,9 +108,9 @@ export default function FadeInOnScroll() {
           <div className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 fade-in-card" ref={(ref) => (elementRefs.current[3] = ref)}>
             <div className="p-5 flex items-start">
               <div className="mr-4">
-                <Image src={Communication} alt="" width={80}></Image>
+                <Image src={Communication} alt="Customer Communication" width={80}></Image>
               </div>
-              <div className="">
+              <div>
                 <h1 className="font-semibold text-left text-2xl pt-6">
                   Communication
                 </h1>
