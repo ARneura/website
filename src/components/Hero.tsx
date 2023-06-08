@@ -11,7 +11,7 @@ export default function Hero() {
           </h1>
           <h2 className="text-gray-400 text-lg md:text-xl pb-4">
           Unleash the power of personalized software solutions. Our experts combine cutting-edge technology and industry expertise to create custom software perfectly tailored to your business.          </h2>
-          <button onClick={() => { window.location.href = "/#services" }} className=" hover:bg-white hover:text-[#0e111f] text-white font-bold py-3 px-7 rounded-full border">
+          <button onClick={() => { window.location.href = "/about" }} className=" hover:bg-gradient-to-r hover:from-[#06668c] hover:to-[#8400b8] hover:text-white text-white font-bold py-3 px-7 rounded-full border">
             Explore
           </button>
         </div>

@@ -96,10 +96,10 @@ export default function FadeInOnScroll() {
               </div>
             </div>
             <span className="text-left text-lg">
-              Our team possesses a diverse range of skills meticulously honed to
+              Our team possesses a diverse range of skills, honed to
               meet all your project requirements. Whether its development,
               design, or any other aspect, we are fully equipped to handle every
-              aspect with utmost proficiency. You can rest assured knowing that
+              aspect. You can rest assured knowing that
               we have got you covered, ensuring successful execution from start
               to finish.
             </span>
