@@ -14,14 +14,14 @@ export default function Box(props: {
     const ref = elementRef.current;
     const options = {
       root: null as Element | null,
-      rootMargin: '0px',
-      threshold: 0.5,
+      rootMargin: "0px",
+      threshold: 0.2,
     };
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('fade-in');
+          entry.target.classList.add("fade-in");
         }
       });
     }, options);
@@ -38,24 +38,29 @@ export default function Box(props: {
   }, [elementRef]);
 
   return (
-    <div className={`w-full flex flex-wrap text-arneuraHeroText fade-in-element`} ref={elementRef}>
+    <div
+      className={`w-full flex flex-wrap text-arneuraHeroText fade-in-element bg-[#151a2e] rounded-2xl`}
+      ref={elementRef}
+    >
       <div className={`w-full md:w-1/2 ${props.reverse ? "order-2" : ""}`}>
         <div className="h-full flex flex-col justify-center p-10 fade-up">
-          <h1 className="font-bold mb-3 text-3xl">{props.title.replace("'", "&apos;")}</h1>
+          <h1 className="font-bold mb-3 text-3xl">
+            {props.title.replace("'", "&apos;")}
+          </h1>
           <h2 className="text-lg">{props.description}</h2>
         </div>
       </div>
-      <div
-        className={`w-full md:w-1/2 ${props.reverse ? "order-1" : ""} hide-on-mobile`} // Add the class from the CSS file
-        style={{ height: "100%" }}
-      >
+      <div className={`w-full md:w-1/2 ${props.reverse ? "order-1" : ""}`}>
         <div className="w-full h-full flex justify-center items-center fade-up">
-          <div className="relative" style={{ width: "450px", height: "450px" }}>
+          <div className="relative max-w-xs md:max-w-full mx-auto">
             <Image
               src={props.img}
               alt={props.alt}
-              layout="fill"
+              layout="responsive"
               objectFit="contain"
+              className="rounded-full p-10"
+              width={400}
+              height={400}
             />
           </div>
         </div>
