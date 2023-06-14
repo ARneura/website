@@ -171,3 +171,9 @@ body {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
+
+@media (max-width: 640px) {
+  .mobileHero {
+    padding-top: 50%;
+  }
+}
