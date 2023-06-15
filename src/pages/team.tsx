@@ -8,11 +8,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <Header
-        home={"/#"}
-        services={"#services"}
-        technologies={"#technologies"}
-      />
+      <Header home={"/#"} services={"#services"} technologies={"/about"} />
 
       <div className="flex flex-col items-center bg-gradient-to-b from-[#0e111f] to-[#1c223b] h-full pt-10">
         <div className="w-full max-w-6xl">
@@ -64,10 +60,10 @@ export default function About() {
               description={`Introducing Anthony, a highly skilled senior software engineer with six years of experience in the industry. Throughout his career, Anthony has honed his expertise in building Unity and VR applications, demonstrating a deep understanding of immersive technologies. Alongside his proficiency in Unity and VR, Anthony has also mastered the art of developing web applications and back-end APIs, allowing him to create robust and scalable solutions for a diverse range of platforms. `}
               reverse={true}
               img={SoftwareLogosImgs}
-              alt={"Anthony Key, AI Engineer"}
+              alt={"Anthony Key, VR/Software Developer"}
             />
-            <div className="flex justify-center items-center mt-2 bg-[#1c223b] rounded-2xl">
-              <Link
+            <div className="flex justify-center items-center mt-2 bg-[#232a45] rounded-2xl">
+              <a
                 href="https://www.linkedin.com/in/anthonylloydkey/"
                 className=""
               >
@@ -96,7 +92,7 @@ export default function About() {
                     d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"
                   ></path>
                 </svg>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
