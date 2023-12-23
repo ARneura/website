@@ -17,14 +17,14 @@ export default function Header(props: {
             <h2 className="text-xl font-bold text-gray-800">{title}</h2>
           </div>
           <div
-            className="hidden justify-center items-center w-full lg:flex lg:w-auto lg:order-1"
+            className="hidden justify-center items-center w-full lg:flex lg:w-auto lg:order-1 bg-blue-100 p-4 rounded-3xl"
             id="mobile-menu"
           >
             <ul className="flex flex-col mt-4 font-semibold lg:flex-row lg:space-x-8 lg:mt-0 justify-center items-center float-right">
               <li>
                 <Link
                   href={props.home}
-                  className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0  lg:p-0 hover:text-blue-700 hover:scale-105"
+                  className="block py-2 pr-4 pl-3 text-blue-950 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0  lg:p-0 hover:text-blue-500 hover:scale-105"
                 >
                   Home
                 </Link>
@@ -32,7 +32,7 @@ export default function Header(props: {
               <li>
                 <Link
                   href={props.services}
-                  className="block py-2 pr-4 pl-3 text-gray-800 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0  lg:p-0 hover:text-blue-700 hover:scale-105"
+                  className="block py-2 pr-4 pl-3 text-blue-950 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0  lg:p-0 hover:text-blue-500 hover:scale-105"
                 >
                   Services
                 </Link>
@@ -41,7 +41,7 @@ export default function Header(props: {
               <li>
                 <Link
                   href="/team"
-                  className="block py-2 pr-4 pl-3 text-gray-800 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0  lg:p-0 hover:text-blue-700 hover:scale-105"
+                  className="block py-2 pr-4 pl-3 text-blue-950 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0  lg:p-0 hover:text-blue-500 hover:scale-105"
                 >
                   Team
                 </Link>
@@ -50,7 +50,7 @@ export default function Header(props: {
               <li>
                 <Link
                   href={props.technologies}
-                  className="block py-2 pr-4 pl-3 text-gray-800 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0 lg:p-0 hover:text-blue-700 hover:scale-105"
+                  className="block py-2 pr-4 pl-3 text-blue-950 border-b border-gray-100 hover:bg-gray-700 lg:hover:bg-transparent lg:border-0 lg:p-0 hover:text-blue-500 hover:scale-105"
                 >
                   About
                 </Link>
@@ -58,7 +58,7 @@ export default function Header(props: {
 
               <li>
                 <button
-                  className=" border-2 text-black hover:bg-blue-950 hover:text-white font-bold py-3 px-4 rounded-full border-blue-950"
+                  className=" border-2 text-blue-950 hover:border-blue-500 hover:text-blue-500  font-bold py-3 px-4 rounded-full border-blue-950"
                   onClick={() => {
                     window.location.href = "/#contact";
                   }}

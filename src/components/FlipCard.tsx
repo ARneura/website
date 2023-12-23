@@ -40,18 +40,27 @@ export default function FadeInOnScroll() {
     };
   }, []);
 
+  const backgroundImageStyle = {
+    backgroundImage: `url('/18410.jpg')`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+  };
+
   return (
-    <div className="w-full bg-[#1c223b]">
-      <h1 className="font-bold mb-3 text-3xl text-center text-white">
-        Services
-      </h1>
-      <h2 className="text-[#c0c1c2] text-center pb-5">
-        What to expect when choosing us
-      </h2>
+    <div className="w-full p-20 shadow-2xl" style={backgroundImageStyle}>
+      <div className="ml-28 pt-5 bg-white p-5 w-2/6 mb-5  rounded-3xl">
+        <h1 className="font-bold mb-3 text-3xl text-left text-blue-950 ">
+          Services
+        </h1>
+        <h2 className="text-blue-950 text-left font-bold ">
+          What to expect when choosing us
+        </h2>
+      </div>
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-8 text-[#c7c7c7]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-8 text-blue-950">
           <div
-            className="opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 "
+            className="opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-white border-2 border-blue-200 hover:scale-95 "
             ref={(ref) => (elementRefs.current[0] = ref)}
           >
             <div className="p-5 flex items-start">
@@ -77,7 +86,7 @@ export default function FadeInOnScroll() {
           </div>
 
           <div
-            className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 "
+            className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-white border-2 border-blue-200 hover:scale-95 "
             ref={(ref) => (elementRefs.current[1] = ref)}
           >
             <div className="p-5 flex items-start">
@@ -99,7 +108,7 @@ export default function FadeInOnScroll() {
           </div>
 
           <div
-            className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 "
+            className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-white border-2 border-blue-200 hover:scale-95 "
             ref={(ref) => (elementRefs.current[2] = ref)}
           >
             <div className="p-5 flex items-start">
@@ -122,7 +131,7 @@ export default function FadeInOnScroll() {
           </div>
 
           <div
-            className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-[#2d3656] hover:border-b-blue-500 hover:border-b-4 border-b-4 "
+            className=" opacity-0 p-5 rounded-2xl shadow-[#3f4b75] bg-white border-2 border-blue-200 hover:scale-95 "
             ref={(ref) => (elementRefs.current[3] = ref)}
           >
             <div className="p-5 flex items-start">

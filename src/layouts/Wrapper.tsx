@@ -22,6 +22,22 @@ const Wrapper = ({ children, title }: WrapperProps) => {
           name="description"
           content="Unleash the power of personalized software solutions. Our experts combine cutting-edge technology and industry expertise to create custom software perfectly tailored to your business."
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-BL4MENCKZ8"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-BL4MENCKZ8', {
+  page_path: window.location.pathname,
+});
+`,
+          }}
+        ></script>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>{children}</div>

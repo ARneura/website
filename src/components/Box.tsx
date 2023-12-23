@@ -39,7 +39,7 @@ export default function Box(props: {
 
   return (
     <div
-      className={`w-full flex flex-wrap text-arneuraHeroText fade-in-element bg-[#151a2e] rounded-2xl`}
+      className={`w-full flex flex-wrap fade-in-element bg-blue-200 text-blue-950 rounded-2xl`}
       ref={elementRef}
     >
       <div className={`w-full md:w-1/2 ${props.reverse ? "order-2" : ""}`}>

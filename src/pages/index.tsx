@@ -10,12 +10,8 @@ export default function Home() {
       <Header home={"#home"} services={"#services"} technologies={"/about"} />
 
       <Hero />
-      <section id="services" className=" bg-[#1c223b]">
-        <div className="w-full">
-          <FlipCard />
-        </div>
-      </section>
-      <div className="flex flex-col items-center bg-[#1c223b]">
+      <FlipCard />
+      <div className="flex flex-col items-center bg-white">
         <div className="w-full max-w-6xl">
           <Contact />
         </div>
