@@ -30,6 +30,13 @@ const teamMembers = [
   },
 ];
 
+const backgroundImageStyle = {
+  backgroundImage: `url('/18410.jpg')`,
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+};
+
 const About = () => {
   return (
     <>

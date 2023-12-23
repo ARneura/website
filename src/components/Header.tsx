@@ -7,17 +7,25 @@ export default function Header(props: {
   technologies: string;
 }) {
   const [title, setTitle] = useState("Software");
-
+  const backgroundImageStyle = {
+    backgroundImage: `url('/18410.jpg')`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+  };
   return (
     <header>
       <nav className="bg-white px-4 lg:px-6 py-6 w-full top-0 z-10">
         <div className="flex justify-between items-center mx-auto max-w-screen-xl">
           <div>
-            <h1 className="text-3xl font-bold text-gray-800">ARNEURA</h1>
-            <h2 className="text-xl font-bold text-gray-800">{title}</h2>
+            <h1 className="text-3xl font-bold text-blue-950">ARNEURA</h1>
+            <h2 className="text-xl font-bold text-blue-950 text-right">
+              {title}
+            </h2>
           </div>
           <div
-            className="hidden justify-center items-center w-full lg:flex lg:w-auto lg:order-1 bg-blue-100 p-4 rounded-3xl"
+            className="hidden justify-center items-center w-full lg:flex lg:w-auto lg:order-1  pl-5 pr-5 pb-2 pt-2 rounded-3xl"
+            style={backgroundImageStyle}
             id="mobile-menu"
           >
             <ul className="flex flex-col mt-4 font-semibold lg:flex-row lg:space-x-8 lg:mt-0 justify-center items-center float-right">
@@ -55,15 +63,14 @@ export default function Header(props: {
                   About
                 </Link>
               </li>
-
               <li>
                 <button
-                  className=" border-2 text-blue-950 hover:border-blue-500 hover:text-blue-500  font-bold py-3 px-4 rounded-full border-blue-950"
+                  className=" border-2 text-blue-950 hover:bg-blue-950 hover:text-white  font-bold py-3 px-4 rounded-full border-blue-950"
                   onClick={() => {
                     window.location.href = "/#contact";
                   }}
                 >
-                  Contact Us
+                  Get in touch
                 </button>
               </li>
             </ul>

@@ -12,7 +12,7 @@ export default function About() {
         technologies={"#technologies"}
       />
 
-      <div className="flex flex-col items-center bg-gradient-to-b from-[#0e111f] to-[#1c223b] h-screen pt-10">
+      <div className="flex flex-col items-center bg-white h-screen pt-10">
         <div className="w-full max-w-6xl">
           <Box
             title={"Our Mission"}

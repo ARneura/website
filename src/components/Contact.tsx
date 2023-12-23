@@ -97,7 +97,7 @@ export default function Contact(props: {}) {
 
   return (
     <section id="contact">
-      <div className="shadow-xl w-full flex flex-wrap bg-white items-center justify-center p-5">
+      <div className="shadow-xl w-full flex flex-wrap bg-white items-center justify-center p-5 rounded-3xl">
         <div className={`w-full md:w-1/2`} style={{ height: "100%" }}>
           <h1 className="font-bold mb-3 text-3xl text-blue-950">
             Send us a message
@@ -203,9 +203,9 @@ export default function Contact(props: {}) {
           <p className="text-blue-950 font-bold text-5xl mb-5">
             Lets talk about your project.
           </p>
-          <p className="text-blue-950 font-bold">
+          <p className="text-blue-950  text-lg">
             Contact us today to learn more about how Arnuera can help you reach
-            your goals. Our team will reply to you within 24 hours.
+            your goals. We will aim to reply to you within 24 hours.
           </p>
           {/* Centering the bottom SVG using Flexbox */}
           <div className="flex items-center justify-center mt-auto">

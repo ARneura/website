@@ -48,12 +48,12 @@ export default function FadeInOnScroll() {
   };
 
   return (
-    <div className="w-full p-20 shadow-2xl" style={backgroundImageStyle}>
+    <div className="w-full p-20 shadow-2xl bg-white">
       <div className="ml-28 pt-5 bg-white p-5 w-2/6 mb-5  rounded-3xl">
         <h1 className="font-bold mb-3 text-3xl text-left text-blue-950 ">
           Services
         </h1>
-        <h2 className="text-blue-950 text-left font-bold ">
+        <h2 className="text-blue-950 text-left  text-lg">
           What to expect when choosing us
         </h2>
       </div>
