@@ -1,40 +1,47 @@
 import Image from "next/image";
 import GroupImg from "../../public/GroupImg.svg";
 
-export default function Hero() {
+const Hero = () => {
+  const backgroundImageStyle = {
+    backgroundImage: `url('/18410.jpg')`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+  };
+
   return (
-    <div className=" w-auto h-screen bg-gradient-to-b from-[#0e111f] to-[#1c223b] mobileHero">
-      <div className="flex flex-col items-center justify-center md:flex-row md:p-40">
-        <div className="w-full md:w-2/4 max-w-lg text-center md:text-left">
-          <h1 className="font-bold text-arneuraHeroText text-4xl md:text-5xl pb-3">
+    <div className="h-screen bg-cover bg-center" style={backgroundImageStyle}>
+      <div className="flex container mx-auto rounded-lg shadow-lg p-3">
+        <div className="w-full md:w-1/2 pr-8 -mt-16 bg-white rounded-3xl p-10 ml-10 flex flex-col justify-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-950 mb-4 text-right">
             Bespoke Software Solutions Worldwide
           </h1>
-          <h2 className="text-gray-400 text-lg md:text-xl pb-4">
+          <p className=" text-lg font-bold text-blue-950 mb-6 text-right">
             Unleash the power of personalized software solutions. Our experts
             combine cutting-edge technology and industry expertise to create
-            custom software perfectly tailored to your business.{" "}
-          </h2>
+            custom software perfectly tailored to your business.
+          </p>
           <button
             onClick={() => {
               window.location.href = "/about";
             }}
-            className=" hover:bg-gradient-to-r hover:from-[#06668c] hover:to-[#8400b8] hover:text-white text-white font-bold py-3 px-7 rounded-full border"
+            className="w-full text-blue-950   hover:bg-blue-950 hover:text-white font-bold py-3 rounded-full border-2 border-blue-950 self-end"
           >
             Explore
           </button>
         </div>
-        <div className="w-full md:w-2/4 flex justify-center items-center mt-5 md:mt-0">
-          <div className="hidden md:block">
-            <Image
-              src={GroupImg}
-              alt="Bespoke Software Banner Image"
-              width={700}
-              height={20}
-              className="float-image"
-            />
-          </div>
+        <div className="w-full md:w-1/2 flex justify-center items-center -mt-16">
+          <Image
+            src={GroupImg}
+            alt="Bespoke Software Banner Image"
+            width={900}
+            height={500}
+            className=""
+          />
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Hero;

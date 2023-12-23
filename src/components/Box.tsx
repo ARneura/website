@@ -9,7 +9,12 @@ export default function Box(props: {
   alt: string;
 }) {
   const elementRef = useRef<HTMLDivElement>(null);
-
+  const backgroundImageStyle = {
+    backgroundImage: `url('/18410.jpg')`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+  };
   useEffect(() => {
     const ref = elementRef.current;
     const options = {
@@ -39,8 +44,9 @@ export default function Box(props: {
 
   return (
     <div
-      className={`w-full flex flex-wrap text-arneuraHeroText fade-in-element bg-[#151a2e] rounded-2xl`}
+      className={`w-full flex flex-wrap fade-in-element  text-blue-950 rounded-2xl`}
       ref={elementRef}
+      style={backgroundImageStyle}
     >
       <div className={`w-full md:w-1/2 ${props.reverse ? "order-2" : ""}`}>
         <div className="h-full flex flex-col justify-center p-10 fade-up">
