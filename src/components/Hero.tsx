@@ -25,7 +25,7 @@ export default function Hero() {
             onClick={() => {
               window.location.href = "/about";
             }}
-            className="text-blue-950 hover:text-white hover:bg-blue-950 font-bold py-3 px-7 rounded-full border"
+            className="text-blue-950 hover:text-white hover:bg-blue-950 font-bold py-3 px-7 rounded-full  border-2 border-blue-950"
           >
             Explore
           </button>

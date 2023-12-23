@@ -58,7 +58,7 @@ export default function Header(props: {
 
               <li>
                 <button
-                  className=" border-2 text-black hover:bg-blue-950 hover:text-white font-bold py-3 px-4 rounded-full"
+                  className=" border-2 text-black hover:bg-blue-950 hover:text-white font-bold py-3 px-4 rounded-full border-blue-950"
                   onClick={() => {
                     window.location.href = "/#contact";
                   }}
