@@ -155,9 +155,23 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1050px) {
   .hide-on-mobile {
     display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .service-mobile {
+    
+    padding: 0px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .restruct-on-mobile {
+    text-align: center;
+    margin-left: 0;
   }
 }
 

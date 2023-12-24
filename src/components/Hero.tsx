@@ -12,11 +12,11 @@ const Hero = () => {
   return (
     <div className="h-screen bg-cover bg-center" style={backgroundImageStyle}>
       <div className="flex container mx-auto rounded-lg shadow-lg p-3">
-        <div className="w-full md:w-1/2 pr-8 -mt-16 bg-white rounded-3xl p-10 ml-10 flex flex-col justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-950 mb-4 text-right">
+        <div className="w-full md:w-1/2 pr-8 -mt-16 bg-white rounded-3xl p-10 restruct-on-mobile ml-10 flex flex-col justify-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-950 mb-4 text-right restruct-on-mobile">
             Bespoke Software Solutions Worldwide
           </h1>
-          <p className=" text-lg font-bold text-blue-950 mb-6 text-right">
+          <p className=" text-lg font-bold text-blue-950 mb-6 text-right restruct-on-mobile">
             Unleash the power of personalized software solutions. Our experts
             combine cutting-edge technology and industry expertise to create
             custom software perfectly tailored to your business.
@@ -30,7 +30,7 @@ const Hero = () => {
             Explore
           </button>
         </div>
-        <div className="w-full md:w-1/2 flex justify-center items-center -mt-16">
+        <div className="w-full md:w-1/2 flex justify-center items-center -mt-16 hide-on-mobile">
           <Image
             src={GroupImg}
             alt="Bespoke Software Banner Image"
