@@ -48,8 +48,11 @@ export default function FadeInOnScroll() {
   };
 
   return (
-    <div className="w-full p-20 shadow-2xl bg-white" id="services">
-      <div className="ml-28 pt-5 bg-white p-5 w-2/6 mb-5  rounded-3xl service-mobile">
+    <div
+      className="w-full p-20 shadow-2xl bg-white service-mobile"
+      id="services"
+    >
+      <div className="ml-28 pt-5 bg-white p-5 w-2/6 mb-5  rounded-3xl service-mobile service-ml">
         <h1 className="font-bold mb-3 text-3xl text-left text-blue-950">
           Services
         </h1>

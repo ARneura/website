@@ -169,6 +169,13 @@ body {
 }
 
 @media (max-width: 1050px) {
+  .service-ml {
+    
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1050px) {
   .restruct-on-mobile {
     text-align: center;
     margin-left: 0;
