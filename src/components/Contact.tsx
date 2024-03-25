@@ -177,7 +177,7 @@ export default function Contact(props: {}) {
               <h2 className="text-lg font-semibold text-blue-950">
                 Contact Information
               </h2>
-              <a href="mailto:customer-service@arneura.com">
+              <a href="mailto:ryan.pargeter@arneura.com">
                 <span className="flex-inline flex pl-3 items-center">
                   <svg
                     aria-hidden="true"
@@ -190,7 +190,7 @@ export default function Contact(props: {}) {
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                   </svg>
                   <p className="ml-2 text-blue-950">
-                    customer-service@arneura.com
+                    ryan.pargeter@arneura.com
                   </p>
                 </span>
               </a>
